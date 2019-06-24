@@ -30,6 +30,11 @@ namespace Task2
 
             Console.WriteLine(FindingNumber.FundingNumberClass.Number(_int2));
 
+            List<Action> a = new List<Action> { };
+            a.Add(Console.WriteLine);
+            //a[0].;
+           
+
             Console.ReadLine();
         }
     }
